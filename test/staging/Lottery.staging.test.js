@@ -43,7 +43,7 @@ developmentChains.includes(network.name)
                           }
                       })
 
-                      // Then entering the raffle
+                      // Then entering the lottery
                       console.log("Entering Lottery...")
                       const tx = await lottery.enterLottery({ value: lotteryEntraceFee })
                       await tx.wait(1)
